@@ -25,7 +25,7 @@ public class HttpTest {
 
         //POST
         UserJsonFilter newUser = new UserJsonFilter(HttpUtil.maxOfHttml(list)+1, "Warner Bro",
-                "coconut@gmail.com", new UserJsonFilter.UserAdress("Douglas Extension",
+               "BrusUnbel" ,"coconut@gmail.com", new UserJsonFilter.UserAdress("Douglas Extension",
                 "Suite 847", "NY", "59590-4157",
                 new UserJsonFilter.UserAdress.GeoUserAdress("-99.1111","11.0001")),
                 "1-463-123-4447", "ukraine.info", new UserJsonFilter.Company("Tommy-Tommy",
@@ -42,7 +42,7 @@ public class HttpTest {
         }
 
         //PUT
-        UserJsonFilter userPut = new UserJsonFilter(3, "Dr. Evil",
+        UserJsonFilter userPut = new UserJsonFilter(3, "Dr. Evil", "Jojo",
                 "peach@gmail.com", new UserJsonFilter.UserAdress("De & Co",
                 "apt. 111", "London", "666999-000",
                 new UserJsonFilter.UserAdress.GeoUserAdress("-99.1111","11.0001")),
@@ -79,7 +79,10 @@ public class HttpTest {
         // System.out.println(GSON.toJson(searchById(list, 1)));
 
         //Get info by name
-        System.out.println(GSON.toJson(HttpUtil.searchByName(list, "Clementina DuBuque")));
+        //ANOTHER
+        //System.out.println(GSON.toJson(HttpUtil.searchByName(list, "Clementina DuBuque")));
+        final List<UserJsonFilter> user2 = HttpFunction.getList(String.valueOf(URI.create(String.format("%s?username=%s", USER_URI, list.get(3).getUsername()))));
+        System.out.println(GSON.toJson(user2, new TypeToken<List<UserJsonFilter>>(){}.getType()));
 
         //Get last post and get last comment
         List<UserPostFilter> postList = HttpUtilPost.getList(USERPOST_URI);

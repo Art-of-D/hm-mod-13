@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed757a61-5528-4ced-b90d-fcc7a02496b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HttpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserJsonFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserJsonFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +65,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpTest (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HttpTest" />
       <module name="hm-mod-13" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpTest (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpTest (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HttpTest" />
       <module name="hm-mod-13" />
       <method v="2">
@@ -92,10 +89,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HttpTest" />
+        <item itemvalue="Application.HttpTest (5)" />
         <item itemvalue="Application.HttpTest (2)" />
         <item itemvalue="Application.HttpTest (1)" />
         <item itemvalue="Application.HttpTest (4)" />
-        <item itemvalue="Application.HttpTest (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +108,15 @@
     <servers />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HttpTest.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
