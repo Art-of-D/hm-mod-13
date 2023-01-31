@@ -6,8 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="ed757a61-5528-4ced-b90d-fcc7a02496b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HttpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HttpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserJsonFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserJsonFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpComm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpTasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpUtilPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserCommFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserJsonFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserPostComm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserPostFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserTodos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user-10-post-50-comments.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,15 +118,6 @@
     <servers />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/HttpTest.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />

@@ -10,7 +10,7 @@ public class HttpTest {
     private static final String USERCOMM_URI = "https://jsonplaceholder.typicode.com/posts/10/comments";
     private static final String USERTASK_URI = "https://jsonplaceholder.typicode.com/users/1/todos";
     private static final Gson GSON = new Gson();
-    private static final String PATH = "/Users/art_of_d/Java/hm-mod-13/src/test/java";
+    private static final String PATH = "/Users/art_of_d/Java/hm-mod-13/src/main/java";
 
 
     public static void main(String[] args) throws Exception {
